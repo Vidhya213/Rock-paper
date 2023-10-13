@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+.continer {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+}
+
+h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.user,
+.comp {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.zero {
+  font-size: 10px;
+  margin-top: 5px;
+  background-color: black;
+  color: whitesmoke;
+  padding: 5px;
+}
+
+.move {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.moves-left {
+  font-size: 16px;
+  margin-top: 10px;
+  color: #666;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.icons .rock,
+.icons .paper,
+.icons .scissors {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  padding-top: 10px;
+}
+i:hover {
+  color: red;
+  cursor: pointer;
+}
+.icons button {
+  background: none;
+  border: none;
+  font-size: 32px;
+  color: #333;
+}
+
+.result {
+  font-size: 24px;
+  margin-top: 20px;
+  color: #0074cc;
+}
+
+.restart-button {
+  background-color: black;
+  color: #fff;
+  font-size: 15px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 0.5rem;
+}
+
+.restart-button:hover {
+  background-color: darkred;
+}
